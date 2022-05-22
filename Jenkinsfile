@@ -9,7 +9,7 @@ node {
     {
         sh 'sudo docker-compose build'
         sh 'sudo docker-compose up -d'
-       // echo "hello world"
+        echo "hello world"
     }
 //   stage('PUSH image to Docker Hub')
 //     {
