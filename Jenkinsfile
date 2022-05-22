@@ -1,5 +1,4 @@
-pipeline {
-node(AutoEcommerceStaging) {
+node {
 
     stage('SCM Checkout')
     {
@@ -30,4 +29,4 @@ node(AutoEcommerceStaging) {
 
 //     }
 }
-}
+
