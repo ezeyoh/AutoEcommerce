@@ -1,4 +1,4 @@
-node{
+node(AutoEcommerceStaging){
 
     stage('SCM Checkout')
     {
