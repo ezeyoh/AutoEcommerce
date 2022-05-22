@@ -1,4 +1,5 @@
-node(AutoEcommerceStaging){
+pipeline {
+node(AutoEcommerceStaging) {
 
     stage('SCM Checkout')
     {
@@ -28,4 +29,5 @@ node(AutoEcommerceStaging){
 //             // sh 'docker push upasanatestdocker/mysql'
 
 //     }
+}
 }
